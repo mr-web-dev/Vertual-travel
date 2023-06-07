@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Ko'dini o'g'irlagan k*t */
+
 :focus{
     outline: 3px dotted var(--blue);
     outline-offset: 5px;
@@ -163,8 +165,12 @@ button{
     flex-direction: column;
 }
 
+.hero__title:first-child{
+    font-size: 50px;
+}
+
 .hero__title{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .hero__text{
@@ -330,10 +336,6 @@ button{
     min-height: auto;
 }
 
-.cities-hidden{
-    padding: 0;
-}
-
 .cities__container{
     padding-left: 40px;
     padding-right: 40px;
@@ -361,7 +363,7 @@ button{
     text-transform: capitalize;
 }
 
-.cities__title-502 {
+.cities__title-error {
     font-size: 40px;
     text-transform: capitalize;
     --fa-animation-duration: 2s;
@@ -371,7 +373,7 @@ button{
     font-size: 20px;
 }
 
-.cities__text-502 {
+.cities__text-error {
     font-size: 30px;
 }
 
